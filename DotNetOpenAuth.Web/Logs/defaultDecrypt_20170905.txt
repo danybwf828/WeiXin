@@ -1,0 +1,1 @@
+2017-9-5 15:30:24: Data Source=172.22.22.14;Initial Catalog=zjkynew103;User ID=gzcx;Password=gzcx#123

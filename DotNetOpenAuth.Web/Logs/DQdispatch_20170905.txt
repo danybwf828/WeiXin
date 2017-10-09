@@ -1,0 +1,18 @@
+2017-9-5 8:10:20: setp1:
+2017-9-5 8:10:20: setp2:
+2017-9-5 8:10:41: setp1:
+2017-9-5 8:10:41: setp2:
+2017-9-5 8:10:41: setp3:
+2017-9-5 8:10:41: setp4:insert into wxDispatch(d_userID,d_userName,d_issTime,d_timestamp,d_state,d_imagePath1,d_imagePath2,d_title,d_words)values('14789','唐泽','20170905081041','20170905081041','1','D:\WeiXin\DotNetOpenAuth.Web\Moulds\ZJGroup\DangQun\Photos\20170905081041“紫金矿业集团”微信企业号.jpg','D:\WeiXin\DotNetOpenAuth.Web\Moulds\ZJGroup\DangQun\Photos\20170905081041“紫金矿业集团”微信企业号.jpg','','')
+2017-9-5 8:12:09: setp1:
+2017-9-5 8:12:09: setp2:
+2017-9-5 8:12:27: setp1:
+2017-9-5 8:12:27: setp2:
+2017-9-5 8:12:27: setp3:
+2017-9-5 8:12:27: setp4:insert into wxDispatch(d_userID,d_userName,d_issTime,d_timestamp,d_state,d_imagePath1,d_imagePath2,d_title,d_words)values('14789','唐泽','20170905081227','20170905081227','1','D:\WeiXin\DotNetOpenAuth.Web\Moulds\ZJGroup\DangQun\Photos\2017090508122720161030220846_37888.png','D:\WeiXin\DotNetOpenAuth.Web\Moulds\ZJGroup\DangQun\Photos\2017090508122720161030220846_37888.png','','')
+2017-9-5 8:14:24: setp1:
+2017-9-5 8:14:24: setp2:
+2017-9-5 8:14:44: setp1:
+2017-9-5 8:14:44: setp2:
+2017-9-5 8:14:44: setp3:
+2017-9-5 8:14:44: setp4:insert into wxDispatch(d_userID,d_userName,d_issTime,d_timestamp,d_state,d_imagePath1,d_imagePath2,d_title,d_words)values('14789','唐泽','20170905081444','20170905081444','1','D:\WeiXin\DotNetOpenAuth.Web\Moulds\ZJGroup\DangQun\Photos\2017090508144420161030220846_37888.png','D:\WeiXin\DotNetOpenAuth.Web\Moulds\ZJGroup\DangQun\Photos\2017090508144420161030220846_37888.png','','')

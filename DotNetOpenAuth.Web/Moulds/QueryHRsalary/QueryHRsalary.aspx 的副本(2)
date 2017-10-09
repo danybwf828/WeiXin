@@ -1,0 +1,365 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="QueryHRsalary.aspx.cs" Inherits="DotNetOpenAuth.Web.Moulds.QueryHRsalary.QueryHRsalary" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>薪资标准</title>
+
+<link rel="stylesheet" type="text/css" href="css/default.css"/>
+<link rel="stylesheet" type="text/css" href="css/styles17.css"/>
+</head>
+
+<body runat="server">
+<article class="htmleaf-container">
+	<div class="demo">
+	  <%--<header class="demo__header"></header>--%>
+	  <div class="demo__content">
+		<div class="demo__card-cont" id="DCC01">
+		  <div class="demo__card">
+			<div class="demo__card__top bgcolor-12">
+			  <div class="demo__card__img"></div>
+			  <p class="demo__card__name"><%=bbSalaryTime[11]%></p>
+			</div>
+			<div class="demo__card__btm">
+               <br />
+			  <p style="font-size:20px;"> 基本工资标准：<%=bbSalaryJBGZBZ[11]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月工资标准：<%=bbSalaryGWYGZBZ[11]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月上浮工资：<%=bbSalaryGWYSFGZ[11]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日工资标准：<%=bbSalaryGWRGZBZ[11]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日上浮工资：<%=bbSalaryGWRSFGZ [11]%>元</p>
+			</div>
+			<div class="demo__card__choice m--reject"></div>
+			<div class="demo__card__choice m--like"></div>
+			<div class="demo__card__drag"></div>
+		  </div>
+		  <div class="demo__card">
+			<div class="demo__card__top bgcolor-9">
+			  <div class="demo__card__img"></div>
+			  <p class="demo__card__name"><%=bbSalaryTime[10]%></p>
+			</div>
+			<div class="demo__card__btm">
+               <br />
+			  <p style="font-size:20px;"> 基本工资标准：<%=bbSalaryJBGZBZ[10]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月工资标准：<%=bbSalaryGWYGZBZ[10]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月上浮工资：<%=bbSalaryGWYSFGZ[10]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日工资标准：<%=bbSalaryGWRGZBZ[10]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日上浮工资：<%=bbSalaryGWRSFGZ [10]%>元</p>
+			</div>
+			<div class="demo__card__choice m--reject"></div>
+			<div class="demo__card__choice m--like"></div>
+			<div class="demo__card__drag"></div>
+		  </div>
+		  <div class="demo__card">
+			<div class="demo__card__top bgcolor-8">
+			  <div class="demo__card__img"></div>
+			  <p class="demo__card__name"><%=bbSalaryTime[9]%></p>
+			</div>
+			<div class="demo__card__btm">
+               <br />
+			  <p style="font-size:20px;"> 基本工资标准：<%=bbSalaryJBGZBZ[9]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月工资标准：<%=bbSalaryGWYGZBZ[9]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月上浮工资：<%=bbSalaryGWYSFGZ[9]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日工资标准：<%=bbSalaryGWRGZBZ[9]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日上浮工资：<%=bbSalaryGWRSFGZ [9]%>元</p>
+			</div>
+			<div class="demo__card__choice m--reject"></div>
+			<div class="demo__card__choice m--like"></div>
+			<div class="demo__card__drag"></div>
+		  </div>
+		  <div class="demo__card">
+			<div class="demo__card__top bgcolor-11">
+			  <div class="demo__card__img"></div>
+			  <p class="demo__card__name"><%=bbSalaryTime[8]%></p>
+			</div>
+			<div class="demo__card__btm">
+               <br />
+			  <p style="font-size:20px;"> 基本工资标准：<%=bbSalaryJBGZBZ[8]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月工资标准：<%=bbSalaryGWYGZBZ[8]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月上浮工资：<%=bbSalaryGWYSFGZ[8]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日工资标准：<%=bbSalaryGWRGZBZ[8]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日上浮工资：<%=bbSalaryGWRSFGZ [8]%>元</p>
+			</div>
+			<div class="demo__card__choice m--reject"></div>
+			<div class="demo__card__choice m--like"></div>
+			<div class="demo__card__drag"></div>
+		  </div>
+		  <div class="demo__card">
+			<div class="demo__card__top bgcolor-7">
+			  <div class="demo__card__img"></div>
+			  <p class="demo__card__name"><%=bbSalaryTime[7]%></p>
+			</div>
+			<div class="demo__card__btm">
+               <br />
+			  <p style="font-size:20px;"> 基本工资标准：<%=bbSalaryJBGZBZ[7]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月工资标准：<%=bbSalaryGWYGZBZ[7]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月上浮工资：<%=bbSalaryGWYSFGZ[7]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日工资标准：<%=bbSalaryGWRGZBZ[7]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日上浮工资：<%=bbSalaryGWRSFGZ [7]%>元</p>
+			</div>
+			<div class="demo__card__choice m--reject"></div>
+			<div class="demo__card__choice m--like"></div>
+			<div class="demo__card__drag"></div>
+		  </div>
+		  <div class="demo__card">
+			<div class="demo__card__top bgcolor-6 ">
+			  <div class="demo__card__img"></div>
+			  <p class="demo__card__name"><%=bbSalaryTime[6]%></p>
+			</div>
+			<div class="demo__card__btm">
+               <br />
+			  <p style="font-size:20px;"> 基本工资标准：<%=bbSalaryJBGZBZ[6]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月工资标准：<%=bbSalaryGWYGZBZ[6]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月上浮工资：<%=bbSalaryGWYSFGZ[6]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日工资标准：<%=bbSalaryGWRGZBZ[6]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日上浮工资：<%=bbSalaryGWRSFGZ [6]%>元</p>
+			</div>
+			<div class="demo__card__choice m--reject"></div>
+			<div class="demo__card__choice m--like"></div>
+			<div class="demo__card__drag"></div>
+		  </div>
+		  <div class="demo__card">
+			<div class="demo__card__top blue">
+			  <div class="demo__card__img"></div>
+			  <p class="demo__card__name"><%=bbSalaryTime[5]%></p>
+			</div>
+			<div class="demo__card__btm">
+               <br />
+			  <p style="font-size:20px;"> 基本工资标准：<%=bbSalaryJBGZBZ[5]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月工资标准：<%=bbSalaryGWYGZBZ[5]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月上浮工资：<%=bbSalaryGWYSFGZ[5]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日工资标准：<%=bbSalaryGWRGZBZ[5]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日上浮工资：<%=bbSalaryGWRSFGZ [5]%>元</p>
+			</div>
+			<div class="demo__card__choice m--reject"></div>
+			<div class="demo__card__choice m--like"></div>
+			<div class="demo__card__drag"></div>
+		  </div>
+		  <div class="demo__card">
+			<div class="demo__card__top lime">
+			  <div class="demo__card__img"></div>
+			  <p class="demo__card__name"><%=bbSalaryTime[4]%></p>
+			</div>
+			<div class="demo__card__btm">
+               <br />
+			  <p style="font-size:20px;"> 基本工资标准：<%=bbSalaryJBGZBZ[4]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月工资标准：<%=bbSalaryGWYGZBZ[4]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月上浮工资：<%=bbSalaryGWYSFGZ[4]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日工资标准：<%=bbSalaryGWRGZBZ[4]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日上浮工资：<%=bbSalaryGWRSFGZ [4]%>元</p>
+			</div>
+			<div class="demo__card__choice m--reject"></div>
+			<div class="demo__card__choice m--like"></div>
+			<div class="demo__card__drag"></div>
+		  </div>
+		  <div class="demo__card">
+			<div class="demo__card__top brown">
+			  <div class="demo__card__img"></div>
+			  <p class="demo__card__name"><%=bbSalaryTime[3]%></p>
+			</div>
+			<div class="demo__card__btm">
+               <br />
+			  <p style="font-size:20px;"> 基本工资标准：<%=bbSalaryJBGZBZ[3]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月工资标准：<%=bbSalaryGWYGZBZ[3]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月上浮工资：<%=bbSalaryGWYSFGZ[3]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日工资标准：<%=bbSalaryGWRGZBZ[3]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日上浮工资：<%=bbSalaryGWRSFGZ [3]%>元</p>
+			</div>
+			<div class="demo__card__choice m--reject"></div>
+			<div class="demo__card__choice m--like"></div>
+			<div class="demo__card__drag"></div>
+		  </div>
+		  <div class="demo__card">
+			<div class="demo__card__top indigo">
+			  <div class="demo__card__img"></div>
+			  <p class="demo__card__name"><%=bbSalaryTime[2]%></p>
+			</div>
+			<div class="demo__card__btm">
+               <br />
+			  <p style="font-size:20px;"> 基本工资标准：<%=bbSalaryJBGZBZ[2]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月工资标准：<%=bbSalaryGWYGZBZ[2]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月上浮工资：<%=bbSalaryGWYSFGZ[2]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日工资标准：<%=bbSalaryGWRGZBZ[2]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日上浮工资：<%=bbSalaryGWRSFGZ [2]%>元</p>
+			</div>
+			<div class="demo__card__choice m--reject"></div>
+			<div class="demo__card__choice m--like"></div>
+			<div class="demo__card__drag"></div>
+		  </div>
+		  <div class="demo__card">
+			<div class="demo__card__top cyan">
+			  <div class="demo__card__img"></div>
+			  <p class="demo__card__name"><%=bbSalaryTime[1]%></p>
+			</div>
+			<div class="demo__card__btm">
+               <br />
+			  <p style="font-size:20px;"> 基本工资标准：<%=bbSalaryJBGZBZ[1]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月工资标准：<%=bbSalaryGWYGZBZ[1]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月上浮工资：<%=bbSalaryGWYSFGZ[1]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日工资标准：<%=bbSalaryGWRGZBZ[1]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日上浮工资：<%=bbSalaryGWRSFGZ [1]%>元</p>
+			</div>
+			<div class="demo__card__choice m--reject"></div>
+			<div class="demo__card__choice m--like"></div>
+			<div class="demo__card__drag"></div>
+		  </div>
+		  <div class="demo__card">
+			<div class="demo__card__top purple">
+			  <div class="demo__card__img"></div>
+			  <p class="demo__card__name"><%=bbSalaryTime[0]%></p>
+			</div>
+			<div class="demo__card__btm">
+               <br />
+			  <p style="font-size:20px;"> 基本工资标准：<%=bbSalaryJBGZBZ[0]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月工资标准：<%=bbSalaryGWYGZBZ[0]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位月上浮工资：<%=bbSalaryGWYSFGZ[0]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日工资标准：<%=bbSalaryGWRGZBZ[0]%>元</p>
+               <br />
+			  <p style="font-size:20px;"> 岗位日上浮工资：<%=bbSalaryGWRSFGZ [0]%>元</p>
+			</div>
+			<div class="demo__card__choice m--reject"></div>
+			<div class="demo__card__choice m--like"></div>
+			<div class="demo__card__drag"></div>
+		  </div>
+		</div>
+		<p class="demo__tip">☚左右滑动☛</p>
+	  </div>
+	</div>
+</article>
+<script src='js/stopExecutionOnTimeout.js?t=1'></script>
+<script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function () {
+        var animating = false;
+        var cardsCounter = 0;
+        var numOfCards = 12;
+        var decisionVal = 80;
+        var pullDeltaX = 0;
+        var deg = 0;
+        var $card, $cardReject, $cardLike;
+        function pullChange1() {
+            animating = true;
+            deg = pullDeltaX / 10;
+            $card.css('transform', 'translateX(' + pullDeltaX + 'px) rotate(' + deg + 'deg)');
+            var opacity = pullDeltaX / 100;
+            var rejectOpacity = opacity >= 0 ? 0 : Math.abs(opacity);
+            var likeOpacity = opacity <= 0 ? 0 : opacity;
+            $cardReject.css('opacity', rejectOpacity);
+            $cardLike.css('opacity', likeOpacity);
+        };
+        function pullChange2() {
+            animating = true;
+            deg = (this.pageX + pullDeltaX) / 10;
+            $card.css('transform', 'translateX(' + this.pageX + pullDeltaX + 'px) rotate(' + deg + 'deg)');
+            var opacity = (this.pageX + pullDeltaX) / 100;
+            var rejectOpacity = 0;
+            var likeOpacity = opacity <= 0 ? 0 : opacity;
+            $cardReject.css('opacity', rejectOpacity);
+            $cardLike.css('opacity', likeOpacity);
+        };
+
+        function release1() {
+            if (pullDeltaX >= decisionVal) {
+                $card.addClass('to-right');
+            } else if (pullDeltaX <= -decisionVal) {
+                $card.addClass('to-left');
+            }
+            if (Math.abs(pullDeltaX) >= decisionVal) {
+                $card.addClass('inactive');
+                setTimeout(function () {
+                    $card.addClass('below').removeClass('inactive to-left to-right');
+                    cardsCounter++;
+                    if (cardsCounter === numOfCards) {
+                        cardsCounter = 0;
+                        $('.demo__card').removeClass('below');
+                    }
+                }, 300);
+            }
+            if (Math.abs(pullDeltaX) < decisionVal) {
+                $card.addClass('reset');
+            }
+            setTimeout(function () {
+                $card.attr('style', '').removeClass('reset').find('.demo__card__choice').attr('style', '');
+                pullDeltaX = 0;
+                animating = false;
+            }, 300);
+        };
+        $(document).on('mousedown touchstart', '.demo__card:not(.inactive)', function (e) {
+            if (animating)
+                return;
+            $card = $(this);
+            $cardReject = $('.demo__card__choice.m--reject', $card);
+            $cardLike = $('.demo__card__choice.m--like', $card);
+            var startX = e.pageX || e.originalEvent.touches[0].pageX;
+            $(document).on('mousemove touchmove', function (e) {
+                var x = e.pageX || e.originalEvent.touches[0].pageX;
+                pullDeltaX = x - startX;
+                if (!pullDeltaX)
+                    return;
+                if (pullDeltaX > 0) { pullChange1(); }
+                else { pullChange1(); }
+            });
+            $(document).on('mouseup touchend', function () {
+                $(document).off('mousemove touchmove mouseup touchend');
+                if (!pullDeltaX)
+                    return;
+                release1();
+            });
+        });
+    });
+</script>
+<div style="text-align:center;margin:-50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<p>适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
+<p>来源：<a href="http://172.22.23.104/" target="_blank">ZIJIN-HR</a></p>
+</div>
+</body>
+</html>

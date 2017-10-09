@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{785DD4C4-5549-416C-B2A6-457874DE51CC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DotNetOpenAuth.Web</RootNamespace>
+    <AssemblyName>DotNetOpenAuth.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNetPager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=fb0a0fe055d40fd4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\AspNetPager.dll" />
+    <Content Include="bin\DotNetOpenAuth.DataAccess.dll" />
+    <Content Include="bin\DotNetOpenAuth.SDK.dll" />
+    <Content Include="bin\Oracle.ManagedDataAccess.dll" />
+    <Content Include="Moulds\Encrypt\bbEncrypt.aspx" />
+    <Content Include="Moulds\QueryHRsalary\css\answerCard.css" />
+    <Content Include="Moulds\QueryHRsalary\css\default.css" />
+    <Content Include="Moulds\QueryHRsalary\css\normalize.css" />
+    <Content Include="Moulds\QueryHRsalary\css\styles.css" />
+    <Content Include="Moulds\QueryHRsalary\css\styles17.css" />
+    <Content Include="Moulds\QueryHRsalary\fonts\icomoon.svg" />
+    <Content Include="Moulds\QueryHRsalary\img\udTln22.png" />
+    <Content Include="Moulds\QueryHRsalary\js\hovertreeanswer.js" />
+    <Content Include="Moulds\QueryHRsalary\js\jquery-2.1.1.min.js" />
+    <Content Include="Moulds\QueryHRsalary\js\stopExecutionOnTimeout.js" />
+    <Content Include="Moulds\QueryHRsalary\QueryHRsalary.aspx" />
+    <Content Include="Moulds\QueryHRsalary\QueryHrSalary1.aspx" />
+    <Content Include="Moulds\QueryHRsalary\QueryHrSalary2.aspx" />
+    <Content Include="Moulds\QueryHRsalary\说明.txt" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\animate.css" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\default-skin\default-skin.css" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\default-skin\default-skin.png" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\default-skin\default-skin.svg" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\default-skin\preloader.gif" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\demo1.css" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\iconfont.css" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\iconfont.svg" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\photoswipe.css" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\style.css" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\style2.css" />
+    <Content Include="Moulds\ZJGroup\DangQun\DangQun.aspx" />
+    <Content Include="Moulds\ZJGroup\DangQun\DQdispatch.aspx" />
+    <Content Include="Moulds\ZJGroup\DangQun\images\album-new.png" />
+    <Content Include="Moulds\ZJGroup\DangQun\images\album-old.png" />
+    <Content Include="Moulds\ZJGroup\DangQun\images\bg.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\images\btn-new.png" />
+    <Content Include="Moulds\ZJGroup\DangQun\images\btn-old.png" />
+    <Content Include="Moulds\ZJGroup\DangQun\images\btn-share.png" />
+    <Content Include="Moulds\ZJGroup\DangQun\images\btn-submit.png" />
+    <Content Include="Moulds\ZJGroup\DangQun\images\loading.gif" />
+    <Content Include="Moulds\ZJGroup\DangQun\images\textarea.png" />
+    <Content Include="Moulds\ZJGroup\DangQun\images\tip.png" />
+    <Content Include="Moulds\ZJGroup\DangQun\images\wan.png" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\bg.jpeg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\m3.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\QQ截图20160417220027.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\QQ截图20160417220046.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\QQ截图20160417220111.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\QQ截图20160417220145.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\s5.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\sb1.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\sb3.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\sb4.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\th1.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\tx.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\tx2.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\tx3.jpg" />
+    <Content Include="Moulds\ZJGroup\DangQun\img\y1.jpeg" />
+    <Content Include="Moulds\ZJGroup\DangQun\iscroll\index.html" />
+    <Content Include="Moulds\ZJGroup\DangQun\iscroll\iscroll.js" />
+    <Content Include="Moulds\ZJGroup\DangQun\iscroll\pull-icon%402x.png" />
+    <Content Include="Moulds\ZJGroup\DangQun\js\iscroll-zoom.js" />
+    <Content Include="Moulds\ZJGroup\DangQun\js\iscroll.js" />
+    <Content Include="Moulds\ZJGroup\DangQun\js\jquery.min.js" />
+    <Content Include="Moulds\ZJGroup\DangQun\js\photoswipe-ui-default.min.js" />
+    <Content Include="Moulds\ZJGroup\DangQun\js\photoswipe.js" />
+    <Content Include="Moulds\ZJGroup\DangQun\js\photoswipe.min.js" />
+    <Content Include="Moulds\ZJGroup\DangQun\js\script.js" />
+    <Content Include="Moulds\ZJGroup\DangQun\js\zepto.min.js" />
+    <Content Include="Moulds\ZJGroup\DangQun\DqDfQuery.aspx" />
+    <Content Include="Moulds\ZJGroup\DangQun\mobiscroll\mobiscroll.custom-2.17.0.min.css" />
+    <Content Include="Moulds\ZJGroup\DangQun\mobiscroll\mobiscroll.custom-2.17.0.min.js" />
+    <Content Include="PlanFill.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="scanQRCode.aspx" />
+    <Content Include="scanQRCodeResult.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="PlanRules.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\Database.cs" />
+    <Compile Include="App_Code\Helper.cs" />
+    <Compile Include="App_Code\HttpHelper.cs" />
+    <Compile Include="App_Code\OracleHelper.cs" />
+    <Compile Include="App_Code\BBoracleHelperNoClient.cs" />
+    <Compile Include="Moulds\Encrypt\bbEncrypt.aspx.cs">
+      <DependentUpon>bbEncrypt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Moulds\Encrypt\bbEncrypt.aspx.designer.cs">
+      <DependentUpon>bbEncrypt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Moulds\QueryHRsalary\QueryHRsalary.aspx.cs">
+      <DependentUpon>QueryHRsalary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Moulds\QueryHRsalary\QueryHRsalary.aspx.designer.cs">
+      <DependentUpon>QueryHRsalary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Moulds\QueryHRsalary\QueryHrSalary1.aspx.cs">
+      <DependentUpon>QueryHrSalary1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Moulds\QueryHRsalary\QueryHrSalary1.aspx.designer.cs">
+      <DependentUpon>QueryHrSalary1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Moulds\QueryHRsalary\QueryHrSalary2.aspx.cs">
+      <DependentUpon>QueryHrSalary2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Moulds\QueryHRsalary\QueryHrSalary2.aspx.designer.cs">
+      <DependentUpon>QueryHrSalary2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Moulds\ZJGroup\DangQun\DangQun.aspx.cs">
+      <DependentUpon>DangQun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Moulds\ZJGroup\DangQun\DangQun.aspx.designer.cs">
+      <DependentUpon>DangQun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Moulds\ZJGroup\DangQun\DQdispatch.aspx.cs">
+      <DependentUpon>DQdispatch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Moulds\ZJGroup\DangQun\DQdispatch.aspx.designer.cs">
+      <DependentUpon>DQdispatch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Moulds\ZJGroup\DangQun\DqDfQuery.aspx.cs">
+      <DependentUpon>DqDfQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Moulds\ZJGroup\DangQun\DqDfQuery.aspx.designer.cs">
+      <DependentUpon>DqDfQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlanQuery.aspx.cs">
+      <DependentUpon>PlanQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlanQuery.aspx.designer.cs">
+      <DependentUpon>PlanQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PlanFill.aspx.cs">
+      <DependentUpon>PlanFill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlanFill.aspx.designer.cs">
+      <DependentUpon>PlanFill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="weixin.ashx.cs">
+      <DependentUpon>weixin.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="scanQRCode.aspx.cs">
+      <DependentUpon>scanQRCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="scanQRCode.aspx.designer.cs">
+      <DependentUpon>scanQRCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="scanQRCodeResult.aspx.cs">
+      <DependentUpon>scanQRCodeResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="scanQRCodeResult.aspx.designer.cs">
+      <DependentUpon>scanQRCodeResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlanRules.aspx.cs">
+      <DependentUpon>PlanRules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlanRules.aspx.designer.cs">
+      <DependentUpon>PlanRules.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PlanQuery.aspx" />
+    <Content Include="Moulds\QueryHRsalary\fonts\icomoon.eot" />
+    <Content Include="Moulds\QueryHRsalary\fonts\icomoon.ttf" />
+    <Content Include="Moulds\QueryHRsalary\fonts\icomoon.woff" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\iconfont.eot" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\iconfont.ttf" />
+    <Content Include="Moulds\ZJGroup\DangQun\css\iconfont.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="weixin.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetOpenAuth.DataAccess\DotNetOpenAuth.DataAccess.csproj">
+      <Project>{d2cd6909-4a36-4ed0-b06a-3c9583dcc493}</Project>
+      <Name>DotNetOpenAuth.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetOpenAuth.SDK\DotNetOpenAuth.SDK.csproj">
+      <Project>{da854b36-3d43-4896-a8f6-52ec41653394}</Project>
+      <Name>DotNetOpenAuth.SDK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:36432/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
