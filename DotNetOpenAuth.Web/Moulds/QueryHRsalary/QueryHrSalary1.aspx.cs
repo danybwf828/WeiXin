@@ -27,6 +27,8 @@ namespace DotNetOpenAuth.Web.Moulds.QueryHRsalary
         public string[] bbSalaryGZ = new string[12];
         public string[] bbSalaryJQGZ = new string[12];
         public string[] bbSalaryJT = new string[12];
+        public string[] bbSalaryGWJT = new string[12];
+        public string[] bbSalaryYDJT = new string[12];
         public string[] bbSalaryJBGZ = new string[12];
         public string[] bbSalaryKHED = new string[12];
         public string[] bbSalaryKHGZ = new string[12];
@@ -87,6 +89,8 @@ namespace DotNetOpenAuth.Web.Moulds.QueryHRsalary
                                         bbSalaryGZ[i] = tmpdt.Rows[i]["工资"].ToString();
                                         bbSalaryJQGZ[i] = tmpdt.Rows[i]["假期工资"].ToString();
                                         bbSalaryJT[i] = tmpdt.Rows[i]["津贴"].ToString();
+                                        bbSalaryGWJT[i] = tmpdt.Rows[i]["岗位津贴"].ToString();
+                                        bbSalaryYDJT[i] = tmpdt.Rows[i]["异地津贴"].ToString();
                                         bbSalaryJBGZ[i] = tmpdt.Rows[i]["加班工资"].ToString();
                                         bbSalaryKHED[i] = tmpdt.Rows[i]["考核额度"].ToString();
                                         bbSalaryKHGZ[i] = tmpdt.Rows[i]["考核工资"].ToString();
@@ -156,7 +160,7 @@ namespace DotNetOpenAuth.Web.Moulds.QueryHRsalary
         public DataTable getSalaryByUserId(string strUserHrId, string strYear)
         {
             DataSet ds = new DataSet();
-            string strSql01 = "select w.psncode as 人员编码,w.psnname as 人员名称,a.cnestyear as 年,a.cperiod as 月, b.deptcode as 部门代码, b.deptname as 部门名称, b.pk_corp as 公司代码,a.psnid as HRXZ0070018,sum(F_1) as  应发合计,sum(F_3) as 实发合计,sum(F_245) as 奖金,sum(F_246) as 津贴,sum(F_2) as 扣款,sum(F_244) as 职工福利费,sum(F_376) as 工资,sum(F_248) as 假期工资,sum(F_247) as 加班工资,sum(F_381) as 其他收入,sum(F_159 + F_158) 辞退福利,sum(F_322) as 上级单位奖励本年度,sum(F_67) as 上级单位奖励上年度,sum(F_1 + F_148 + F_146 + F_147 + F_143 + F_145 + F_144 + F_399 +F_400 + F_152 + F_402) as 企业承担该员工人员成本,sum(F_381) as 其他人工成本,sum(F_88) as 过节费,sum(F_459) as 考核额度,sum(F_24) as 考核工资 from zijinehr.wa_data a inner join zijinehr.bd_deptdoc b on a.deptid = b.pk_deptdoc inner join (select e.ipayoffflag, e.classid, f.cnestyear, f.cnestperiod from zijinehr.wa_periodstate e inner join zijinehr.wa_period f on f.pk_wa_period = e.pk_periodset) d on d.cnestyear = a.cnestyear and d.cnestperiod = a.cnestperiod and d.classid = a.classid left join zijinehr.bd_psndoc w    on a.psnid = w.pk_psndoc left join zijinehr.bd_psncl y on w.pk_psncl = y.pk_psncl where a.cyear = '" + strYear + "' and a.istopflag = '0' and a.icheckflag = '1' and d.ipayoffflag = '1' and a.f_1 <> '0' and y.psnclasscode <> '0' and b.pk_corp='1002' and w.psncode = '" + strUserHrId + "' group by b.pk_corp,y.psnclasscode,a.psnid,w.psncode,w.psnname,a.cnestyear,a.cperiod, b.deptcode,b.deptname order by a.cperiod desc";
+            string strSql01 = "select w.psncode as 人员编码,w.psnname as 人员名称,a.cnestyear as 年,a.cperiod as 月, b.deptcode as 部门代码, b.deptname as 部门名称, b.pk_corp as 公司代码,a.psnid as HRXZ0070018,sum(F_1) as  应发合计,sum(F_3) as 实发合计,sum(F_245) as 奖金,sum(F_246) as 津贴,sum(F_465) as 岗位津贴,sum(F_466) as 异地津贴,sum(F_2) as 扣款,sum(F_244) as 职工福利费,sum(F_376) as 工资,sum(F_248) as 假期工资,sum(F_247) as 加班工资,sum(F_381) as 其他收入,sum(F_159 + F_158) 辞退福利,sum(F_322) as 上级单位奖励本年度,sum(F_67) as 上级单位奖励上年度,sum(F_1 + F_148 + F_146 + F_147 + F_143 + F_145 + F_144 + F_399 +F_400 + F_152 + F_402) as 企业承担该员工人员成本,sum(F_381) as 其他人工成本,sum(F_88) as 过节费,sum(F_459) as 考核额度,sum(F_24) as 考核工资 from zijinehr.wa_data a inner join zijinehr.bd_deptdoc b on a.deptid = b.pk_deptdoc inner join (select e.ipayoffflag, e.classid, f.cnestyear, f.cnestperiod from zijinehr.wa_periodstate e inner join zijinehr.wa_period f on f.pk_wa_period = e.pk_periodset) d on d.cnestyear = a.cnestyear and d.cnestperiod = a.cnestperiod and d.classid = a.classid left join zijinehr.bd_psndoc w    on a.psnid = w.pk_psndoc left join zijinehr.bd_psncl y on w.pk_psncl = y.pk_psncl where a.cyear = '" + strYear + "' and a.istopflag = '0' and a.icheckflag = '1' and d.ipayoffflag = '1' and a.f_1 <> '0' and y.psnclasscode <> '0' and b.pk_corp='1002' and w.psncode = '" + strUserHrId + "' group by b.pk_corp,y.psnclasscode,a.psnid,w.psncode,w.psnname,a.cnestyear,a.cperiod, b.deptcode,b.deptname order by a.cperiod desc";
             Helper.WriteLog("strSql01:" + strSql01, "QueryHRslary");
             //try
             //{

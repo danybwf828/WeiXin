@@ -59,7 +59,7 @@
       <!--Q2-->
       <div class="card_cont card2">
         <div class="card"">
-          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[1]%>的扣款如下</p>
+          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[1]%>的薪资标准如下</p>
           <div  class="table-list" style="padding-top:0rem; width:100%;height:80%;overflow:auto;">
 		    <table style="table-layout: fixed; border-collapse:separate;border-spacing:0px 0px;">
 			    <thead>
@@ -98,7 +98,7 @@
       <!--Q3-->
       <div class="card_cont card3">
         <div class="card"">
-          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[2]%>的扣款如下</p>
+          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[2]%>的薪资标准如下</p>
           <div  class="table-list" style="padding-top:0rem; width:100%;height:80%;overflow:auto;">
 		    <table style="table-layout: fixed; border-collapse:separate;border-spacing:0px 0px;">
 			    <thead>
@@ -137,7 +137,7 @@
       <!--Q4-->
       <div class="card_cont">
         <div class="card"">
-          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[3]%>的扣款如下</p>
+          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[3]%>的薪资标准如下</p>
           <div  class="table-list" style="padding-top:0rem; width:100%;height:80%;overflow:auto;">
 		    <table style="table-layout: fixed; border-collapse:separate;border-spacing:0px 0px;">
 			    <thead>
@@ -176,7 +176,7 @@
       <!--Q5-->
       <div class="card_cont">
         <div class="card"">
-          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[4]%>的扣款如下</p>
+          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[4]%>的薪资标准如下</p>
           <div  class="table-list" style="padding-top:0rem; width:100%;height:80%;overflow:auto;">
 		    <table style="table-layout: fixed; border-collapse:separate;border-spacing:0px 0px;">
 			    <thead>
@@ -215,7 +215,7 @@
       <!--6-->
       <div class="card_cont">
         <div class="card"">
-          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[5]%>的扣款如下</p>
+          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[5]%>的薪资标准如下</p>
           <div  class="table-list" style="padding-top:0rem; width:100%;height:80%;overflow:auto;">
 		    <table style="table-layout: fixed; border-collapse:separate;border-spacing:0px 0px;">
 			    <thead>
@@ -254,7 +254,7 @@
       <!--7-->
       <div class="card_cont">
         <div class="card"">
-          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[6]%>的扣款如下</p>
+          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[6]%>的薪资标准如下</p>
           <div  class="table-list" style="padding-top:0rem; width:100%;height:80%;overflow:auto;">
 		    <table style="table-layout: fixed; border-collapse:separate;border-spacing:0px 0px;">
 			    <thead>
@@ -293,7 +293,7 @@
       <!--8-->
       <div class="card_cont">
         <div class="card"">
-          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[7]%>的扣款如下</p>
+          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[7]%>的薪资标准如下</p>
           <div  class="table-list" style="padding-top:0rem; width:100%;height:80%;overflow:auto;">
 		    <table style="table-layout: fixed; border-collapse:separate;border-spacing:0px 0px;">
 			    <thead>
@@ -332,7 +332,7 @@
       <!--9-->
       <div class="card_cont">
         <div class="card"">
-          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[8]%>的扣款如下</p>
+          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[8]%>的薪资标准如下</p>
           <div  class="table-list" style="padding-top:0rem; width:100%;height:80%;overflow:auto;">
 		    <table style="table-layout: fixed; border-collapse:separate;border-spacing:0px 0px;">
 			    <thead>
@@ -371,7 +371,7 @@
       <!--10-->
       <div class="card_cont">
         <div class="card"">
-          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[9]%>的扣款如下</p>
+          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[9]%>的薪资标准如下</p>
           <div  class="table-list" style="padding-top:0rem; width:100%;height:80%;overflow:auto;">
 		    <table style="table-layout: fixed; border-collapse:separate;border-spacing:0px 0px;">
 			    <thead>
@@ -410,7 +410,7 @@
       <!--11-->
       <div class="card_cont">
         <div class="card"">
-          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[10]%>的扣款如下</p>
+          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[10]%>的薪资标准如下</p>
           <div  class="table-list" style="padding-top:0rem; width:100%;height:80%;overflow:auto;">
 		    <table style="table-layout: fixed; border-collapse:separate;border-spacing:0px 0px;">
 			    <thead>
@@ -449,7 +449,7 @@
       <!--12-->
       <div class="card_cont">
         <div class="card"">
-          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[11]%>的扣款如下</p>
+          <p class="question"><span><%=userName%></span>：您<%=bbSalaryTime[11]%>的薪资标准如下</p>
           <div  class="table-list" style="padding-top:0rem; width:100%;height:80%;overflow:auto;">
 		    <table style="table-layout: fixed; border-collapse:separate;border-spacing:0px 0px;">
 			    <thead>

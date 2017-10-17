@@ -37,6 +37,10 @@
 				    <tr>
 					    <td class="listTdRight">本次扣税:</td>
 					    <td class="listTdLeft"><%=bbSalaryBCKS[0]%>元</td>
+				    </tr>				    
+                    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
+					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[0]%>元</td>
 				    </tr>
 				    <tr>
 					    <td class="listTdRight">养老个人扣款:</td>
@@ -58,10 +62,10 @@
 					    <td class="listTdRight">住房公积金贷款扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryZFGJJDKKK[0]%>元</td>
 				    </tr>
-				    <tr>
-					    <td class="listTdRight">社保公积金扣款合计:</td>
+<%--				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
 					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[0]%>元</td>
-				    </tr>
+				    </tr>--%>
 				    <tr>
 					    <td class="listTdRight">代扣其它单位公积金自付部分:</td>
 					    <td class="listTdLeft"><%=bbSalaryDKQTDWGJJZFBF[0]%>元</td>
@@ -145,6 +149,10 @@
 					    <td class="listTdRight">本次扣税:</td>
 					    <td class="listTdLeft"><%=bbSalaryBCKS[1]%>元</td>
 				    </tr>
+                    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
+					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[1]%>元</td>
+				    </tr>
 				    <tr>
 					    <td class="listTdRight">养老个人扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryYLGRKK[1]%>元</td>
@@ -165,10 +173,10 @@
 					    <td class="listTdRight">住房公积金贷款扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryZFGJJDKKK[1]%>元</td>
 				    </tr>
-				    <tr>
-					    <td class="listTdRight">社保公积金扣款合计:</td>
+<%--				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
 					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[1]%>元</td>
-				    </tr>
+				    </tr>--%>
 				    <tr>
 					    <td class="listTdRight">代扣其它单位公积金自付部分:</td>
 					    <td class="listTdLeft"><%=bbSalaryDKQTDWGJJZFBF[1]%>元</td>
@@ -252,6 +260,10 @@
 					    <td class="listTdRight">本次扣税:</td>
 					    <td class="listTdLeft"><%=bbSalaryBCKS[2]%>元</td>
 				    </tr>
+                    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
+					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[2]%>元</td>
+				    </tr>
 				    <tr>
 					    <td class="listTdRight">养老个人扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryYLGRKK[2]%>元</td>
@@ -272,10 +284,10 @@
 					    <td class="listTdRight">住房公积金贷款扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryZFGJJDKKK[2]%>元</td>
 				    </tr>
-				    <tr>
-					    <td class="listTdRight">社保公积金扣款合计:</td>
+<%--				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
 					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[2]%>元</td>
-				    </tr>
+				    </tr>--%>
 				    <tr>
 					    <td class="listTdRight">代扣其它单位公积金自付部分:</td>
 					    <td class="listTdLeft"><%=bbSalaryDKQTDWGJJZFBF[2]%>元</td>
@@ -359,6 +371,10 @@
 					    <td class="listTdRight">本次扣税:</td>
 					    <td class="listTdLeft"><%=bbSalaryBCKS[3]%>元</td>
 				    </tr>
+                    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
+					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[3]%>元</td>
+				    </tr>
 				    <tr>
 					    <td class="listTdRight">养老个人扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryYLGRKK[3]%>元</td>
@@ -379,10 +395,10 @@
 					    <td class="listTdRight">住房公积金贷款扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryZFGJJDKKK[3]%>元</td>
 				    </tr>
-				    <tr>
-					    <td class="listTdRight">社保公积金扣款合计:</td>
+<%--				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
 					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[3]%>元</td>
-				    </tr>
+				    </tr>--%>
 				    <tr>
 					    <td class="listTdRight">代扣其它单位公积金自付部分:</td>
 					    <td class="listTdLeft"><%=bbSalaryDKQTDWGJJZFBF[3]%>元</td>
@@ -466,6 +482,10 @@
 					    <td class="listTdRight">本次扣税:</td>
 					    <td class="listTdLeft"><%=bbSalaryBCKS[4]%>元</td>
 				    </tr>
+                    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
+					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[4]%>元</td>
+				    </tr>
 				    <tr>
 					    <td class="listTdRight">养老个人扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryYLGRKK[4]%>元</td>
@@ -486,10 +506,10 @@
 					    <td class="listTdRight">住房公积金贷款扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryZFGJJDKKK[4]%>元</td>
 				    </tr>
-				    <tr>
-					    <td class="listTdRight">社保公积金扣款合计:</td>
+	<%--			    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
 					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[4]%>元</td>
-				    </tr>
+				    </tr>--%>
 				    <tr>
 					    <td class="listTdRight">代扣其它单位公积金自付部分:</td>
 					    <td class="listTdLeft"><%=bbSalaryDKQTDWGJJZFBF[4]%>元</td>
@@ -573,6 +593,10 @@
 					    <td class="listTdRight">本次扣税:</td>
 					    <td class="listTdLeft"><%=bbSalaryBCKS[5]%>元</td>
 				    </tr>
+                    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
+					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[5]%>元</td>
+				    </tr>
 				    <tr>
 					    <td class="listTdRight">养老个人扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryYLGRKK[5]%>元</td>
@@ -593,10 +617,10 @@
 					    <td class="listTdRight">住房公积金贷款扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryZFGJJDKKK[5]%>元</td>
 				    </tr>
-				    <tr>
-					    <td class="listTdRight">社保公积金扣款合计:</td>
+<%--				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
 					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[5]%>元</td>
-				    </tr>
+				    </tr>--%>
 				    <tr>
 					    <td class="listTdRight">代扣其它单位公积金自付部分:</td>
 					    <td class="listTdLeft"><%=bbSalaryDKQTDWGJJZFBF[5]%>元</td>
@@ -680,6 +704,10 @@
 					    <td class="listTdRight">本次扣税:</td>
 					    <td class="listTdLeft"><%=bbSalaryBCKS[6]%>元</td>
 				    </tr>
+                    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
+					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[6]%>元</td>
+				    </tr>
 				    <tr>
 					    <td class="listTdRight">养老个人扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryYLGRKK[6]%>元</td>
@@ -700,10 +728,10 @@
 					    <td class="listTdRight">住房公积金贷款扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryZFGJJDKKK[6]%>元</td>
 				    </tr>
-				    <tr>
-					    <td class="listTdRight">社保公积金扣款合计:</td>
+<%--				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
 					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[6]%>元</td>
-				    </tr>
+				    </tr>--%>
 				    <tr>
 					    <td class="listTdRight">代扣其它单位公积金自付部分:</td>
 					    <td class="listTdLeft"><%=bbSalaryDKQTDWGJJZFBF[6]%>元</td>
@@ -788,6 +816,10 @@
 					    <td class="listTdLeft"><%=bbSalaryBCKS[7]%>元</td>
 				    </tr>
 				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
+					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[7]%>元</td>
+				    </tr>
+				    <tr>
 					    <td class="listTdRight">养老个人扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryYLGRKK[7]%>元</td>
 				    </tr>
@@ -807,10 +839,10 @@
 					    <td class="listTdRight">住房公积金贷款扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryZFGJJDKKK[7]%>元</td>
 				    </tr>
-				    <tr>
-					    <td class="listTdRight">社保公积金扣款合计:</td>
+<%--				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
 					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[7]%>元</td>
-				    </tr>
+				    </tr>--%>
 				    <tr>
 					    <td class="listTdRight">代扣其它单位公积金自付部分:</td>
 					    <td class="listTdLeft"><%=bbSalaryDKQTDWGJJZFBF[7]%>元</td>
@@ -895,6 +927,10 @@
 					    <td class="listTdLeft"><%=bbSalaryBCKS[8]%>元</td>
 				    </tr>
 				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
+					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[8]%>元</td>
+				    </tr>
+				    <tr>
 					    <td class="listTdRight">养老个人扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryYLGRKK[8]%>元</td>
 				    </tr>
@@ -914,10 +950,10 @@
 					    <td class="listTdRight">住房公积金贷款扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryZFGJJDKKK[8]%>元</td>
 				    </tr>
-				    <tr>
-					    <td class="listTdRight">社保公积金扣款合计:</td>
+<%--				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
 					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[8]%>元</td>
-				    </tr>
+				    </tr>--%>
 				    <tr>
 					    <td class="listTdRight">代扣其它单位公积金自付部分:</td>
 					    <td class="listTdLeft"><%=bbSalaryDKQTDWGJJZFBF[8]%>元</td>
@@ -1002,6 +1038,10 @@
 					    <td class="listTdLeft"><%=bbSalaryBCKS[9]%>元</td>
 				    </tr>
 				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
+					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[9]%>元</td>
+				    </tr>
+				    <tr>
 					    <td class="listTdRight">养老个人扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryYLGRKK[9]%>元</td>
 				    </tr>
@@ -1021,10 +1061,10 @@
 					    <td class="listTdRight">住房公积金贷款扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryZFGJJDKKK[9]%>元</td>
 				    </tr>
-				    <tr>
-					    <td class="listTdRight">社保公积金扣款合计:</td>
+<%--				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
 					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[9]%>元</td>
-				    </tr>
+				    </tr>--%>
 				    <tr>
 					    <td class="listTdRight">代扣其它单位公积金自付部分:</td>
 					    <td class="listTdLeft"><%=bbSalaryDKQTDWGJJZFBF[9]%>元</td>
@@ -1109,6 +1149,10 @@
 					    <td class="listTdLeft"><%=bbSalaryBCKS[10]%>元</td>
 				    </tr>
 				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
+					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[10]%>元</td>
+				    </tr>
+				    <tr>
 					    <td class="listTdRight">养老个人扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryYLGRKK[10]%>元</td>
 				    </tr>
@@ -1128,10 +1172,10 @@
 					    <td class="listTdRight">住房公积金贷款扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryZFGJJDKKK[10]%>元</td>
 				    </tr>
-				    <tr>
-					    <td class="listTdRight">社保公积金扣款合计:</td>
+<%--				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
 					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[10]%>元</td>
-				    </tr>
+				    </tr>--%>
 				    <tr>
 					    <td class="listTdRight">代扣其它单位公积金自付部分:</td>
 					    <td class="listTdLeft"><%=bbSalaryDKQTDWGJJZFBF[10]%>元</td>
@@ -1216,6 +1260,10 @@
 					    <td class="listTdLeft"><%=bbSalaryBCKS[11]%>元</td>
 				    </tr>
 				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
+					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[11]%>元</td>
+				    </tr>
+				    <tr>
 					    <td class="listTdRight">养老个人扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryYLGRKK[11]%>元</td>
 				    </tr>
@@ -1235,10 +1283,10 @@
 					    <td class="listTdRight">住房公积金贷款扣款:</td>
 					    <td class="listTdLeft"><%=bbSalaryZFGJJDKKK[11]%>元</td>
 				    </tr>
-				    <tr>
-					    <td class="listTdRight">社保公积金扣款合计:</td>
+<%--				    <tr>
+					    <td class="listTdRight">社保公积金扣款:</td>
 					    <td class="listTdLeft"><%=bbSalarySBGJJKKHJ[11]%>元</td>
-				    </tr>
+				    </tr>--%>
 				    <tr>
 					    <td class="listTdRight">代扣其它单位公积金自付部分:</td>
 					    <td class="listTdLeft"><%=bbSalaryDKQTDWGJJZFBF[11]%>元</td>
